@@ -27,7 +27,7 @@ import (
 	"net/http/httputil"
 
 	"github.com/meatballhat/negroni-logrus"
-	"github.com/ory/go-convenience/corsx"
+	"github.com/ory/x/corsx"
 	"github.com/ory/graceful"
 	"github.com/ory/keto/sdk/go/keto"
 	"github.com/ory/metrics-middleware"
